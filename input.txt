@@ -1,0 +1,35 @@
+class Example {
+	
+	String s = "Example";
+	char a = 'a'; 
+	boolean result = true; 
+	
+	testResult()
+	{
+    		if(result == true)
+    		{ 
+    		a = 't';
+    		}
+    		else
+    		{
+    		a = 'f';
+    		}
+	}
+
+	
+	calculation(int op1, int op2)
+	{
+		int sum = 0; 
+		sum = op1 * op2;
+		return sum; 
+	}
+
+	counter(int num)
+	{
+		int rounds = 0; 
+		while(rounds < num) 
+		{
+			rounds = rounds + 1;
+		}
+	}
+}
